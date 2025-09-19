@@ -1,7 +1,7 @@
 # PoRT: Robust LLM Unlearning via Post Judgment and Multi-Round Thinking
 
 Official implementation for the paper **"Robust LLM Unlearning via Post Judgment and Multi-Round Thinking"**. PoRT is a new framework for robust LLM unlearning that withstands adversarial attacks where existing pre-filtering methods fail.
-<img width="3217" height="1327" alt="PoRT" src="https://github.com/user-attachments/assets/d3582036-31b0-42f4-95d7-e4c79e185e04" />
+<img width="3217" height="1327" alt="PoRT" src="./resource/PoRT.png" />
 The core pipeline of PoRT, which uses a post-judgment and self-correction mechanism to handle unsafe or ambiguous outputs.
 
 
