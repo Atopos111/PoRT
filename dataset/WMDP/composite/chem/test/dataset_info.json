@@ -1,0 +1,31 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "full_question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choices": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "answer": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "harmful_position": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

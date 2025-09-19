@@ -1,0 +1,22 @@
+tasks:
+  - name: retain
+    params:
+      model_path: "{model_name}_{forget_set_name}"
+  - name: original
+    params:
+      model_path: "{model_name}_full"
+  - name: ga
+    params:
+      model_path: "{model_name}_full_ga_{forget_set_name}"
+  - name: gd
+    params:
+      model_path: "{model_name}_full_gd_{forget_set_name}"
+  - name: rmu
+    params:
+      model_path: "{model_name}_full_rmu_{forget_set_name}"
+  - name: npo
+    params:
+      model_path: "{model_name}_full_npo_{forget_set_name}"
+  - name: simnpo
+    params:
+      model_path: "{model_name}_full_simnpo_{forget_set_name}"
